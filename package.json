@@ -4,9 +4,12 @@
   "description": "Implementation of a web crawler in NodeJs",
   "main": "main.js",
   "scripts": {
-    "start": "node main.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/main.js",
+    "test": "jest"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.6.4"
+  }
 }
